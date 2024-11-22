@@ -1,4 +1,4 @@
-package org.maisprati.abstraction.classes;
+package org.maisprati.abstraction.paymentWays.classes;
 
 import org.maisprati.abstraction.paymentWays.PaymentWays;
 

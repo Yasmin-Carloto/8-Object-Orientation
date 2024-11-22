@@ -5,19 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2872cad9-2655-442d-987d-2e624bfa503f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/EmployeePositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/EmployeePositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Intern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Intern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Payroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/employeesManagement/classes/Payroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/PaymentWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/PaymentWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/classes/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/classes/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/classes/Pix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/classes/Pix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/classes/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/abstraction/paymentWays/classes/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/encapsulation/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/encapsulation/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/encapsulation/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/encapsulation/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/inheritance/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/inheritance/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/inheritance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/inheritance/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/inheritance/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/inheritance/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/ITransportation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/ITransportation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/maisprati/polymorphism/classes/Train.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pAtu2xN9Pdfic6uDx9q8avUsR3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,13 +64,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Yasmi/Desktop/IdeaProjects/+praTI/modulo05/ED-Estrutura-De-Dados",
     "onboarding.tips.debug.path": "C:/Users/Yasmi/Desktop/IdeaProjects/+praTI/modulo05/OO-Orientacao-A-Objetos/src/main/java/org/maisprati/Main.java"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-temurin-11.0.21-249ae16d76d6-f6576c39" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,16 +93,5 @@
       <updated>1732220929522</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/maisprati/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

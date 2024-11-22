@@ -1,17 +1,68 @@
 package org.maisprati;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.maisprati.abstraction.employeesManagement.Employee;
+import org.maisprati.abstraction.employeesManagement.EmployeePositions;
+import org.maisprati.abstraction.employeesManagement.classes.Developer;
+import org.maisprati.abstraction.employeesManagement.classes.Intern;
+import org.maisprati.abstraction.employeesManagement.classes.Manager;
+import org.maisprati.abstraction.employeesManagement.classes.Payroll;
+import org.maisprati.abstraction.paymentWays.classes.CreditCard;
+import org.maisprati.abstraction.paymentWays.classes.Pix;
+import org.maisprati.abstraction.paymentWays.classes.Ticket;
+import org.maisprati.abstraction.paymentWays.PaymentWays;
+import org.maisprati.polymorphism.Animal;
+import org.maisprati.polymorphism.ITransportation;
+import org.maisprati.polymorphism.classes.*;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        ITransportation[] transports = new ITransportation[3];
+        transports[0] = new Car();
+        transports[1] = new Bicycle();
+        transports[2] = new Train();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        for(ITransportation transport: transports){
+            System.out.println("Transporte: " + transport.getClass().getSimpleName());
+            transport.acelerate();
+            transport.brake();
+            System.out.println();
         }
+
+        Animal[] animals = new Animal[3];
+        animals[0] = new Dog();
+        animals[1] = new Cat();
+        animals[2] = new Cow();
+
+        for(Animal animal: animals){
+            System.out.println("Animal: " + animal.getClass().getSimpleName());
+            animal.makeSound();
+            System.out.println();
+        }
+
+        PaymentWays[] paymentWays = new PaymentWays[3];
+        paymentWays[0] = new CreditCard("1111111111111111", "11/2024", "123");
+        paymentWays[1] = new Ticket("222222222222222222222222222222222222222222222222");
+        paymentWays[2] = new Pix("012.200.0");
+
+        for (PaymentWays paymentWay : paymentWays){
+            System.out.println("Payment way: " + paymentWay.getClass().getSimpleName());
+            paymentWay.processPayment(12.4);
+            System.out.println();
+        }
+
+        Payroll employees = new Payroll();
+
+        Employee intern = new Intern("Yasmin", 1.000);
+        Employee developer = new Developer("Daniel", 3.000);
+        Employee manager = new Manager("Ingryd", 2.500);
+
+        employees.addEmployee(intern);
+        employees.addEmployee(developer);
+        employees.addEmployee(manager);
+
+        employees.calculateTotals();
+
+        manager.promoteEmployee(EmployeePositions.Developer);
+        employees.calculateTotals();
     }
 }
